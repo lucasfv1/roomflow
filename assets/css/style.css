@@ -5,6 +5,10 @@ body {
     padding-top: 56px; /* Ajustado para a altura da navbar */
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 header {
     background: #263C54;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
