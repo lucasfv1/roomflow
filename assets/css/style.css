@@ -1,8 +1,8 @@
-/* Manteremos apenas os estilos específicos que não são cobertos pelo Bootstrap */
-body { 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
     font-family: 'Inter', sans-serif; 
     line-height: 1.6;
-    padding-top: 56px; /* Ajustado para a altura da navbar */
 }
 
 header {
